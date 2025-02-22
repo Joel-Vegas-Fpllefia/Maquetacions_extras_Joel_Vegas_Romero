@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido{
+    width: 1440px;
+    height: 999px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    gap: 112px;
+}
+#imagen{
+    width: 716px;
+    height: 932px;
+}
+#imagen > img{
+    width: 716px;
+    height: 932px;
+
+    margin-top: 67px;
+}
+
+#explicacion{
+    width: 724px;
+    height: 997px;
+}
+
+#introduccion{
+    width: 500px;
+    height: 415px;
+    margin-top: 80px;
+}
+
+#introduccion > h1{
+    width: 500px;
+    height: 153px;
+
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #252525;
+}
+
+#introduccion > p{
+    width: 500px;
+    height: 144px;
+
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.52px;
+
+    color: #252525;
+    opacity: 80%;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#introduccion > a{
+    text-decoration:none;
+}
+
+#introduccion > a > button{
+    cursor: pointer;
+
+    width: 158px;
+    height: 54px;
+
+    border-radius: 16px;
+    background-color: #252525;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+#puntos{
+    width: 500px;
+    height: 334px;
+
+    margin-top: 88px;
+    margin-bottom: 80px;
+}
+#p2{
+    margin-top: 40px;
+}
+.punto{
+    width: 500px;
+    height: 147px;
+}
+
+.punto > h1{
+    width: 500px;
+    height: 44px;
+
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 43.71px;
+
+    color: #252525;
+    opacity:55%;
+
+    margin-bottom: 4px;
+}
+
+.punto > p{
+    width: 500px;
+    height: 99px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.78px;
+
+    color: #252525;
+    opacity: 80%;
+    margin-top: 0px;
+}
