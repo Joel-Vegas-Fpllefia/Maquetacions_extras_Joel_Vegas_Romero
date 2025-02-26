@@ -105,3 +105,154 @@ body{
 
     border: 1px solid #333333;
 }
+
+#apartados{
+    width: 652px;
+    height: 118px;
+
+    margin-top: 70px;
+    margin-left: 64px;
+
+    border: 1px solid #111111; 
+    border-radius: 24px;
+
+    display: flex;
+    gap: 80px;
+
+    padding: 24px;
+}
+
+.apartado{
+    width: 91px;
+    height: 70px;
+}
+
+.apartado > img{
+    width: 24px;
+    height: 24px;
+
+    margin-bottom: 8px;
+}
+
+.apartado > p{
+    width: 91px;
+    height: 38px;
+
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.77px;
+    color: #111111;
+
+    margin-top: 0px;
+}
+
+#producto{
+    width: 653.31px;
+    height: 778.19px;
+    margin-top: 62px;
+    margin-left: 24px;
+
+    position: relative;
+}
+#producto button{
+    cursor: pointer;
+    width: 252px;
+    height: 53px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+
+    gap: 8px;
+    
+    background-color: #685FD4;
+    border: 1px solid #685FD4;
+
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.11px;
+    color: #FFFFFF;
+
+    position: absolute;
+}
+
+#Award{
+    margin-left: 382.5px ;
+    margin-top: 136px; 
+    z-index: 99;
+}
+
+#Ergonomic{
+    margin-top: 619px;
+    margin-left: 32px;
+    z-index: 98;
+}
+#estrellaAbajo{
+    z-index: 100;
+    margin-top: 562.27px;
+    margin-left: 480.8px;
+
+    position: absolute;
+}
+
+#estrellamedia{
+    position: absolute;
+    margin-top: 159px;
+    margin-left: 160px;
+    z-index: 101;
+}
+#estrella{
+    position: absolute;
+    z-index: 102;
+    width: 135.85px;
+    height: 135.85px;
+}
+
+#imgproducto{
+    z-index: 20;
+    width: 480px;
+    height: 628px;
+
+    position: absolute;
+
+    margin-left: 120.76px;
+    margin-top: 90.25px;
+}
+
+#abajo{
+    z-index: 2;
+    width: 310px;
+    height: 476px;
+
+    margin-top: 302.19px;
+    margin-left: 325.21px;
+
+    border-radius: 40px;
+    border: 2px solid #111111;
+
+    position: absolute;
+}
+
+#fondo{
+    z-index: 3;
+
+    width: 480px;
+    height: 568px;
+
+    margin-top: 31px;
+    margin-left: 68px;
+
+    border-radius: 48px;
+    border: 2px solid #111111;
+    
+    position: absolute;
+}
+
+#producto > a{
+    text-decoration: none;
+}
